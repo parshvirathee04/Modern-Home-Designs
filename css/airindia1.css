@@ -1,0 +1,31 @@
+#navigation
+{
+	float: center;
+	width: 450px;
+	background: red;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 100;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: Inline;
+	float: center;
+	padding: 5px 10px;
+	color: red;
+	text-decoration: none;
+	
+}
+
+#navigation li a:hover { background: blue;
+font-size:16px }

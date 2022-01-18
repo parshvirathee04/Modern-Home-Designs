@@ -1,0 +1,31 @@
+#navigation
+{
+	float: center;
+	width: 3000px;
+	background: #ffdb4d;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 5;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: Inline;
+	float: center;
+	padding: 5px 10px;
+	color: grey;
+	text-decoration: none;
+	
+}
+
+#navigation li a:hover { background: #00ff00;
+font-size:16px }

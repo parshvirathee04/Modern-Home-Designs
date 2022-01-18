@@ -1,0 +1,44 @@
+﻿<html>
+<head>
+<script language="javascript">
+function a()
+{
+if(document.frm1.t1.value=="" || document.frm1.t2.value=="")
+{
+alert("Please enter your details");
+}
+else
+{
+alert("Thank you for your valuable feedback");
+}
+}
+</script>
+</head>
+<head>
+<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body basefont color="#ff9900" bgcolor="#fff5e6">
+<div id ="navigation">
+<ul>
+<li><b><a href="index.html">Home</a> > Feedback</b></li>
+</ul>
+</div>
+
+<center>
+<h3><b><font color="magenta" face="Lucida Calligraphy">Your feedback is valuable for us</font></b></h3>
+</center>
+
+<font face="3">
+<form name="frm1" method=post>
+Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" name="t1"><br><br>
+Phone No.&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="t2"><br><br>
+Comments&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="5" cols="40"></textarea><br><br>
+<input type="submit" name="b1" value="submit" onclick="a()">
+</form>
+<center>
+<br>
+© Modern Home Designs</b></font> 
+</center>
+</body>
+</html>
